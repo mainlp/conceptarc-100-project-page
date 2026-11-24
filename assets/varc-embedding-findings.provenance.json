@@ -1,0 +1,33 @@
+{
+  "title": "Annotated VARC task-embedding projection",
+  "source": {
+    "path": "latex_project/figures/representation_analysis/varc_task_embeddings/EmbeddingsPhilipp.pdf",
+    "sha256": "86ada00aa32a57eb2f454e54cdeec271fe47d8cae9f7068534362c6509a09f17",
+    "manuscript": "latex_project/iclr2027_conference.tex",
+    "manuscript_sha256": "e863a603bf27400000a4bb9c068f35eb2cc73d8bbdd85e1046ef1889759cd3c1",
+    "figure_label": "fig:embedding-comparison",
+    "panel_label": "fig:embed-zoom",
+    "instances": 12800
+  },
+  "rendering": {
+    "script": "scripts/render_embedding_figure.py",
+    "method": "Full-page pdftocairo rasterization of the original PDF; lossless WebP encoding",
+    "crop": null,
+    "coordinate_recomputation": false,
+    "width": 2600,
+    "height": 800,
+    "color_mode": "RGB",
+    "webp_lossless": true,
+    "pdf_copy": "byte-for-byte"
+  },
+  "assets": {
+    "docs/assets/varc-embedding-findings.pdf": {
+      "bytes": 2115051,
+      "sha256": "86ada00aa32a57eb2f454e54cdeec271fe47d8cae9f7068534362c6509a09f17"
+    },
+    "docs/assets/varc-embedding-findings.webp": {
+      "bytes": 162130,
+      "sha256": "6c1223c055f1e0e902925fbbd375d63da45053954ea9ffe305df7e29157a3bf2"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/fchollet/ARC-AGI",
+  "commit": "399030444e0ab0cc8b4e199870fb20b863846f34",
+  "commit_date": "2025-04-04T21:28:40Z",
+  "task_id": "a79310a0",
+  "source_path": "data/training/a79310a0.json",
+  "source_file": "a79310a0.json",
+  "source_url": "https://raw.githubusercontent.com/fchollet/ARC-AGI/399030444e0ab0cc8b4e199870fb20b863846f34/data/training/a79310a0.json",
+  "browse_url": "https://github.com/fchollet/ARC-AGI/blob/399030444e0ab0cc8b4e199870fb20b863846f34/data/training/a79310a0.json",
+  "sha256": "e5399435a5c332734fec593f623323305b07c31340ee96d767fc1a89af35682c",
+  "license": {
+    "name": "Apache-2.0",
+    "file": "LICENSE",
+    "source_url": "https://raw.githubusercontent.com/fchollet/ARC-AGI/399030444e0ab0cc8b4e199870fb20b863846f34/LICENSE",
+    "sha256": "b3a161754ffc20840ccf92aec0fe464fbbcf42f14c22f78a3ec2e98fca3864ca"
+  },
+  "description": "Move the light-blue shape down one row and recolor it red.",
+  "assets": [
+    {
+      "file": "a79310a0-support-1.svg",
+      "width": 340,
+      "height": 206,
+      "split": "train",
+      "index": 0
+    },
+    {
+      "file": "a79310a0-support-2.svg",
+      "width": 340,
+      "height": 206,
+      "split": "train",
+      "index": 1
+    },
+    {
+      "file": "a79310a0-support-3.svg",
+      "width": 340,
+      "height": 206,
+      "split": "train",
+      "index": 2
+    },
+    {
+      "file": "test-pair.svg",
+      "width": 340,
+      "height": 206,
+      "split": "test",
+      "index": 0
+    },
+    {
+      "file": "test-input.svg",
+      "width": 160,
+      "height": 184,
+      "split": "test",
+      "index": 0
+    },
+    {
+      "file": "test-output.svg",
+      "width": 160,
+      "height": 184,
+      "split": "test",
+      "index": 0
+    }
+  ]
+}

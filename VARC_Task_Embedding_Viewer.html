@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore 12,800 VARC task-instance embeddings, filter the 16 ConceptARC concepts, and inspect the demonstrations behind each point.">
+  <meta name="theme-color" content="#faf9f6">
+  <title>12,800 VARC task embeddings · ConceptARC at Scale</title>
+  <script>if (new URLSearchParams(location.search).get("embed") === "1") document.documentElement.classList.add("is-embedded");</script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/embedding.css">
+  <script src="assets/embedding.js?v=gray-grid-0.5" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to explorer</a>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="ConceptARC at Scale home"><span class="brand-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>ConceptARC <span class="brand-light">at Scale</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Overview</a>
+        <a href="data_viewer.html">Dataset</a>
+        <a href="VARC_Task_Embedding_Viewer.html" aria-current="page">Embeddings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="embedding-main" tabindex="-1" aria-label="Interactive VARC embedding explorer">
+    <header class="explorer-heading">
+      <p class="explorer-eyebrow">Explore the representations</p>
+      <h1>A map of task representations.</h1>
+      <p>Explore 12,800 learned task embeddings from the paper’s extended VARC experiment, projected with cosine UMAP. Each source task has eight instances, each with three demonstrations and its own embedding. Color identifies the concept.</p>
+      <div class="explorer-statline"><span><strong>1,600</strong> source tasks</span><span><strong>8</strong> instances each</span><span><strong>16</strong> concepts</span></div>
+    </header>
+
+    <div id="index-status" class="explorer-notice" role="status" aria-live="polite">Loading the embedding map…</div>
+    <noscript><p class="explorer-notice">This explorer needs JavaScript. Read the <a href="index.html#representations">representation analysis on the project page</a> for an overview.</p></noscript>
+
+    <div id="explorer" class="embedding-layout" hidden>
+      <section class="map-panel" aria-label="Embedding map and filters">
+        <div class="filter-heading"><h2>Concepts</h2><div class="filter-actions"><button id="show-all" type="button">Show all</button><button id="hide-all" type="button">Hide all</button></div></div>
+        <div id="legend" class="concept-legend" role="group" aria-label="Show or hide concepts"></div>
+        <div class="map-toolbar">
+          <div class="zoom-controls" role="group" aria-label="Map view"><button id="zoom-in" type="button" aria-label="Zoom in">+</button><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="reset-view" type="button">Reset view</button></div>
+          <label class="point-control" for="point-size">Point size <input id="point-size" type="range" min="0.5" max="8" step="0.25" value="1.25"><output id="point-size-value" for="point-size">1.25</output></label>
+        </div>
+        <div class="plot-wrap">
+          <canvas id="plot" tabindex="0" role="img" aria-label="Interactive UMAP map of 12,800 VARC task-instance embeddings" aria-describedby="map-instructions"></canvas>
+          <div id="empty-map" class="empty-map" hidden>No concepts selected. <button id="restore-concepts" type="button">Show all concepts</button></div>
+          <span id="visible-count" class="visible-count">12,800 points</span>
+        </div>
+        <p id="point-hint" class="point-hint">Select a point to inspect its demonstrations.</p>
+        <div class="map-bottom"><p id="map-instructions">Scroll or pinch to zoom; drag to pan. With the map focused, use arrow keys to pan, +/− to zoom, and 0 to reset. You can also select any task with the controls alongside.</p><div class="export-controls"><button id="export-png" type="button">Export PNG</button><button id="export-svg" type="button">Export SVG</button></div></div>
+        <p id="export-status" class="export-status" role="status" aria-live="polite"></p>
+        <p class="projection-note">A 2D projection helps reveal local structure. Distances in this view do not fully preserve distances between embeddings, and clusters alone do not establish what causes the model’s behavior.</p>
+      </section>
+
+      <aside class="inspection-panel" aria-labelledby="inspect-heading">
+        <div class="inspection-heading"><p class="explorer-eyebrow">Behind each point</p><h2 id="inspect-heading">Inspect a task</h2></div>
+        <form id="task-picker" class="task-picker">
+          <label for="pick-concept">Concept<select id="pick-concept" name="concept"></select></label>
+          <div class="picker-row"><label for="pick-source">Source task<select id="pick-source" name="source"></select></label><label for="pick-instance">Instance<select id="pick-instance" name="instance"></select></label></div>
+          <button class="button inspect-button" type="submit">Show task <span aria-hidden="true">↗</span></button>
+        </form>
+        <div id="selection-heading" class="selection-heading" hidden><h3 id="task-title" aria-live="polite"></h3><p id="task-id"></p><a id="source-link" href="data_viewer.html">View source task <span aria-hidden="true">↗</span></a><p class="instance-note">These demonstrations were used in the embedding experiment. Follow the source task link to see the current examples in the dataset viewer.</p></div>
+        <div id="support-status" class="support-status" role="status" aria-live="polite">Click a point on the map, or choose a source task and instance above.</div>
+        <div id="supports" class="support-list"></div>
+      </aside>
+    </div>
+    <footer class="explorer-footer"><a href="index.html">← Back to the research</a><span>ConceptARC at Scale · VARC task embeddings</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "original": {
+    "dataset": "ConceptARC",
+    "concept": "InsideOutside",
+    "label": "Inside and Outside",
+    "repository": "https://github.com/victorvikram/ConceptARC",
+    "commit": "0e67da6af879e4bad3d7cd3c196e8d551b445725",
+    "documented_corpus_format": {
+      "support_min": 1,
+      "support_max": 4,
+      "test_count": 3,
+      "source_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/README.md"
+    },
+    "tasks": [
+      {
+        "id": "InsideOutside1",
+        "number": 1,
+        "support_count": 3,
+        "test_count": 3,
+        "sha256": "f50d7a096fc00d49ee6e190e1a21389c1e6387fefa723ca208c61b5e43756f95",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside1.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside1.json"
+      },
+      {
+        "id": "InsideOutside2",
+        "number": 2,
+        "support_count": 4,
+        "test_count": 3,
+        "sha256": "e4ac927f44a82a6e3c2e8ee51079e0427da79b6de2272131384f37eb759a18d8",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside2.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside2.json"
+      },
+      {
+        "id": "InsideOutside3",
+        "number": 3,
+        "support_count": 4,
+        "test_count": 3,
+        "sha256": "e93829a6802d91e4ee03a7f506d7970776b7010892529ace92a34998b45bf46e",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside3.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside3.json"
+      },
+      {
+        "id": "InsideOutside4",
+        "number": 4,
+        "support_count": 4,
+        "test_count": 3,
+        "sha256": "7aa5dc90cf3416d384c23301ba6f71865ab505702122765583ba2ca424e587cb",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside4.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside4.json"
+      },
+      {
+        "id": "InsideOutside5",
+        "number": 5,
+        "support_count": 3,
+        "test_count": 3,
+        "sha256": "e35a57a412d99c843531866487a0c69f1a400ee5e6b11929619a274571e2a878",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside5.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside5.json"
+      },
+      {
+        "id": "InsideOutside6",
+        "number": 6,
+        "support_count": 2,
+        "test_count": 3,
+        "sha256": "7c74e541c6ddd6e27ae3d2e7fa202b256b59f2ba31cd7e5a0b0813312e8f7baf",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside6.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside6.json"
+      },
+      {
+        "id": "InsideOutside7",
+        "number": 7,
+        "support_count": 3,
+        "test_count": 3,
+        "sha256": "d541038a67d88b2a56204920bd2136e2634e8a1d7565751ab2d284f03268d405",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside7.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside7.json"
+      },
+      {
+        "id": "InsideOutside8",
+        "number": 8,
+        "support_count": 2,
+        "test_count": 3,
+        "sha256": "5ef593fa3299d7fd8642f59d70de535f973ce03e0484b1dc598810e513394bcd",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside8.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside8.json"
+      },
+      {
+        "id": "InsideOutside9",
+        "number": 9,
+        "support_count": 2,
+        "test_count": 3,
+        "sha256": "1f254a091b6194fecd9fdd64120e95cd33815934c45d619ae639933a1c379436",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside9.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside9.json"
+      },
+      {
+        "id": "InsideOutside10",
+        "number": 10,
+        "support_count": 2,
+        "test_count": 3,
+        "sha256": "d7ca0f4e7644a816a06381273be9e24923310deca51dc6198592b7630f175320",
+        "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside10.json",
+        "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside10.json"
+      }
+    ]
+  },
+  "generated": {
+    "dataset": "ConceptARC-100",
+    "concept": "InsideOutside",
+    "task_count": 100,
+    "support_count": 3,
+    "test_count": 10,
+    "source_file": "ConceptARC-100-8.html",
+    "source_sha256": "fe18538b6860c9a0edffc6eae1965e3f0b32c2673755183748d7385803f10ccd"
+  }
+}

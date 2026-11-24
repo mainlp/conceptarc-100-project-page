@@ -1,0 +1,5 @@
+arxiv.svg is the unmodified official arXiv small logomark.
+arXiv and its logo are registered trademarks of arXiv.
+Brand assets: https://github.com/arXiv/arxiv-docs/blob/develop/source/brand/logos.md
+Official download: https://cornell.box.com/v/arxiv-logomark-small-svg
+Use guidelines: https://github.com/arXiv/arxiv-docs/blob/develop/source/brand/brand-guidelines.md

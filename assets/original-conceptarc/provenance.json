@@ -1,0 +1,94 @@
+{
+  "repository": "https://github.com/victorvikram/ConceptARC",
+  "commit": "0e67da6af879e4bad3d7cd3c196e8d551b445725",
+  "commit_date": "2026-02-10T16:07:13Z",
+  "paper": {
+    "title": "The ConceptARC Benchmark: Evaluating Understanding and Generalization in the ARC Domain",
+    "authors": [
+      "Artem Moskvichev",
+      "Victor Vikram Odouard",
+      "Melanie Mitchell"
+    ],
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.07141"
+  },
+  "license": {
+    "name": "MIT",
+    "file": "LICENSE",
+    "copyright": "Copyright (c) 2024 Victor Vikram Odouard",
+    "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/LICENSE",
+    "sha256": "071c50c2ac20503ad515a56490499713e5b9aa5c9f23f8a133a0af295b878cb7"
+  },
+  "tasks": [
+    {
+      "id": "InsideOutside7",
+      "caption": "Count markers inside each colored rectangle.",
+      "source_file": "InsideOutside7.json",
+      "source_path": "corpus/InsideOutside/InsideOutside7.json",
+      "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside7.json",
+      "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside7.json",
+      "sha256": "d541038a67d88b2a56204920bd2136e2634e8a1d7565751ab2d284f03268d405",
+      "support_count": 3,
+      "test_count": 3,
+      "assets": {
+        "supports": [
+          {
+            "support_index": 0,
+            "file": "InsideOutside7-support-1.svg",
+            "width": 340,
+            "height": 127
+          },
+          {
+            "support_index": 1,
+            "file": "InsideOutside7-support-2.svg",
+            "width": 340,
+            "height": 127
+          },
+          {
+            "support_index": 2,
+            "file": "InsideOutside7-support-3.svg",
+            "width": 340,
+            "height": 127
+          }
+        ],
+        "strip": {
+          "file": "InsideOutside7.svg",
+          "width": 1060,
+          "height": 127
+        }
+      }
+    },
+    {
+      "id": "InsideOutside8",
+      "caption": "Keep only markers inside the open container.",
+      "source_file": "InsideOutside8.json",
+      "source_path": "corpus/InsideOutside/InsideOutside8.json",
+      "source_url": "https://raw.githubusercontent.com/victorvikram/ConceptARC/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside8.json",
+      "browse_url": "https://github.com/victorvikram/ConceptARC/blob/0e67da6af879e4bad3d7cd3c196e8d551b445725/corpus/InsideOutside/InsideOutside8.json",
+      "sha256": "5ef593fa3299d7fd8642f59d70de535f973ce03e0484b1dc598810e513394bcd",
+      "support_count": 2,
+      "test_count": 3,
+      "assets": {
+        "supports": [
+          {
+            "support_index": 0,
+            "file": "InsideOutside8-support-1.svg",
+            "width": 340,
+            "height": 217
+          },
+          {
+            "support_index": 1,
+            "file": "InsideOutside8-support-2.svg",
+            "width": 340,
+            "height": 206
+          }
+        ],
+        "strip": {
+          "file": "InsideOutside8.svg",
+          "width": 700,
+          "height": 217
+        }
+      }
+    }
+  ]
+}

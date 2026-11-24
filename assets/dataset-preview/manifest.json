@@ -1,0 +1,118 @@
+{
+  "source": {
+    "path": "ConceptARC-100-8.html",
+    "sha256": "fe18538b6860c9a0edffc6eae1965e3f0b32c2673755183748d7385803f10ccd"
+  },
+  "width": 320,
+  "height": 180,
+  "palette": [
+    "#000000",
+    "#0074d9",
+    "#ff4136",
+    "#2ecc40",
+    "#ffdc00",
+    "#aaaaaa",
+    "#f012be",
+    "#ff851b",
+    "#7fdbff",
+    "#870c25"
+  ],
+  "previews": [
+    {
+      "concept": "AboveBelow",
+      "label": "Above and Below",
+      "task_id": "AboveBelow1_001",
+      "support_index": 0,
+      "file": "AboveBelow.svg",
+      "input_shape": [
+        7,
+        7
+      ],
+      "output_shape": [
+        7,
+        7
+      ],
+      "pair_sha256": "3fceb8e5cfc09df2c5a80b93d10ad99397f5eaba16abe07638f0e2467c7931f6"
+    },
+    {
+      "concept": "Copy",
+      "label": "Copy",
+      "task_id": "Copy1_001",
+      "support_index": 0,
+      "file": "Copy.svg",
+      "input_shape": [
+        10,
+        10
+      ],
+      "output_shape": [
+        10,
+        10
+      ],
+      "pair_sha256": "b38937f6292e84fda08c962822eaafff8b0c5304661733c068a75066a9293225"
+    },
+    {
+      "concept": "CompleteShape",
+      "label": "Complete Shape",
+      "task_id": "CompleteShape1_001",
+      "support_index": 0,
+      "file": "CompleteShape.svg",
+      "input_shape": [
+        7,
+        14
+      ],
+      "output_shape": [
+        7,
+        14
+      ],
+      "pair_sha256": "e67e8b1ed58a4dac22744b7c6e0f7767684f5c0ce7e66e4916781eda8afd7e25"
+    },
+    {
+      "concept": "ExtendToBoundary",
+      "label": "Extend to Boundary",
+      "task_id": "ExtendToBoundary1_001",
+      "support_index": 0,
+      "file": "ExtendToBoundary.svg",
+      "input_shape": [
+        8,
+        9
+      ],
+      "output_shape": [
+        8,
+        9
+      ],
+      "pair_sha256": "a5c0a4c4f674a578cdac58de3dfafd8d1dfcc954859ddb30191e8c5481c15488"
+    },
+    {
+      "concept": "Order",
+      "label": "Order",
+      "task_id": "Order1_001",
+      "support_index": 0,
+      "file": "Order.svg",
+      "input_shape": [
+        10,
+        27
+      ],
+      "output_shape": [
+        10,
+        27
+      ],
+      "pair_sha256": "cc8042cd13b814339c93e56df8c319eb9d7d552ba9e975d766b97a62c6402400"
+    },
+    {
+      "concept": "TopBottom3D",
+      "label": "Top and Bottom (3D)",
+      "task_id": "TopBottom3D1_001",
+      "support_index": 0,
+      "file": "TopBottom3D.svg",
+      "input_shape": [
+        15,
+        12
+      ],
+      "output_shape": [
+        15,
+        12
+      ],
+      "pair_sha256": "7bd939c7dcceff25d5c01b61307871b0b5a27042d9384e889572ee50c4d79a27"
+    }
+  ]
+}
