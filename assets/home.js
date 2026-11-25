@@ -74,7 +74,7 @@
       const url = new URL(siteUrl); if (!url.pathname.endsWith('/')) url.pathname += '/';
       const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link'); canonical.rel = 'canonical'; canonical.href = url.href; document.head.append(canonical);
       const ogUrl = document.querySelector('meta[property="og:url"]') || document.createElement('meta'); ogUrl.setAttribute('property', 'og:url'); ogUrl.content = url.href; document.head.append(ogUrl);
-      const imageUrl = new URL('assets/social-preview.png', url).href;
+      const imageUrl = new URL('assets/social-preview.png?v=2', url).href;
       document.querySelector('meta[property="og:image"]').content = imageUrl;
       document.querySelector('meta[name="twitter:image"]').content = imageUrl;
     }
