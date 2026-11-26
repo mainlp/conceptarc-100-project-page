@@ -142,8 +142,8 @@
       context.fillRect(left, top, Math.round((x + 1) * stepX) - left, Math.round((y + 1) * stepY) - top);
     }));
     if (cell >= 5) {
-      context.strokeStyle = "rgba(160, 170, 160, 0.28)";
-      context.lineWidth = Math.max(0.5, ratio * 0.5);
+      context.strokeStyle = "rgba(160, 170, 160, 0.40)";
+      context.lineWidth = Math.max(0.5, ratio * 0.7);
       context.beginPath();
       for (let x = 1; x < rows[0].length; x++) { context.moveTo(x * stepX, 0); context.lineTo(x * stepX, canvas.height); }
       for (let y = 1; y < rows.length; y++) { context.moveTo(0, y * stepY); context.lineTo(canvas.width, y * stepY); }
