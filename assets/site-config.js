@@ -1,5 +1,5 @@
 // Optional publication metadata. Relative URLs and https:// URLs are supported.
-// Leave the citation empty until configured.
+// A nonempty citation overrides the BibTeX entry in index.html.
 // Resource URLs also appear in index.html so those links work without JS.
 window.CONCEPTARC_CONFIG = {
   paperUrl: 'https://arxiv.org/abs/2611.06732v1',

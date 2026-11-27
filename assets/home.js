@@ -61,14 +61,19 @@
         container.append(link);
       });
     });
-    if (config.citation && typeof config.citation === 'string') {
-      $('citation-section').hidden = false;
-      $('citation-text').textContent = config.citation;
-      $('copy-citation').addEventListener('click', async () => {
-        try { await navigator.clipboard.writeText(config.citation); $('citation-status').textContent = ' Citation copied.'; }
-        catch { $('citation-status').textContent = ' Select and copy the citation text above.'; }
-      });
-    }
+    const citation = $('citation-text');
+    if (typeof config.citation === 'string' && config.citation.trim()) citation.textContent = config.citation;
+    const copyButton = $('copy-citation');
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(citation.textContent);
+        $('citation-status').textContent = 'BibTeX copied.';
+      } catch {
+        window.getSelection().selectAllChildren(citation);
+        $('citation-status').textContent = 'BibTeX selected. Use your browser’s Copy command.';
+      }
+    });
+    copyButton.hidden = false;
     const siteUrl = safeUrl(config.siteUrl);
     if (siteUrl) {
       const url = new URL(siteUrl); if (!url.pathname.endsWith('/')) url.pathname += '/';
