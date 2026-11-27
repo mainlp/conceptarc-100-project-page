@@ -92,7 +92,7 @@
 html:has(#citation-section:target){scroll-behavior:auto}
 .citation-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}
 .citation-heading h2{font-size:clamp(32px,4vw,36px)}
-#citation-section pre{margin:18px 0 0;padding:clamp(16px,3vw,28px);border:1px solid var(--line);border-radius:var(--radius);background:var(--white);line-height:1.65}
+#citation-section pre{margin:18px 0 0;padding:clamp(16px,3vw,28px);border:1px solid var(--line);border-radius:var(--radius);line-height:1.65}
 #citation-status{color:var(--accent);font-size:13px}
 #citation-status:not(:empty){margin-top:12px}
 @media print{#copy-citation,#citation-status{display:none}}
